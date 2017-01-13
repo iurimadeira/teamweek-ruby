@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/tasks/timeline
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer sSGILoaLDq3W75c-RmhBl8vO5iAziCJjVYNOcFMzHn__GersDBI0SJByEXE42RYx9JADAxEQHN6vq-ce0DnI0D3gc2ZXcChymwu2NsGrc32RMbJQo89xIHDKG5nq9P7suU5JkBgFEA2ATGGJeoo_UAAlUUZDdjkWsZh2DVgHTx5xZ5Z1ET87HdcXVn2wHCHcopp8Tu2G6c_VE1f6kunViVTb3vMzW6Wrf5WZr9Wi52-54WCaqNRYoSUUsdYrS0S9DDbadX9egOoT76gPIHLC1LTEJyHcAdE-tQqXsv6p_G38PQPG8x6nzbi9jrgrZSwFzBjkN817dOnuZ2UfmZWoSQ==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 13 Jan 2017 15:15:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"39f2262c8994ab423f6f6d585e4a751e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ea31e350-c03e-4e04-85d8-7f8d63624783
+      X-Runtime:
+      - '0.020348'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":7375749,"name":"Test","notes":null,"start_date":"2017-01-16","end_date":"2017-01-22","start_time":null,"end_time":null,"color":"#8b992c","color_id":21,"estimated_hours":0.0,"done":false,"user_id":1054512,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-13T14:11:54.390+00:00","updated_at":"2017-01-13T14:11:54.390+00:00","deleted_at":null}]'
+    http_version: 
+  recorded_at: Fri, 13 Jan 2017 15:15:57 GMT
+recorded_with: VCR 3.0.3

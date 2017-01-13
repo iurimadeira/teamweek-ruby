@@ -34,6 +34,11 @@ module Teamweek
         bulk_import('tasks', data, Teamweek::Api::Task)
       end
 
+      def fetch(entity, path = [], params = {})
+        resources = client.get(full_path(path), params)
+        resources.map { |resource| entity.new(resource) }
+      end
+
       private
 
       def set_base_uri(site, account_id)
@@ -41,8 +46,8 @@ module Teamweek
         @base_uri = "#{site}/api/v3/#{account_id}"
       end
 
-      def full_path(uri)
-        base_uri + uri
+      def full_path(terms)
+        base_uri + '/' + terms.join('/')
       end
     end
   end

@@ -12,7 +12,7 @@ module Teamweek
       end
 
       def bulk_uri(entity)
-        full_path("/#{entity}/bulk_import.json")
+        full_path [entity.downcase.pluralize, 'bulk_import.json']
       end
 
     end
