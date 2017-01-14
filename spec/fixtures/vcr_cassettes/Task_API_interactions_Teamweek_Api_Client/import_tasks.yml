@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://teamweek.com/api/v3/230525/tasks/bulk_import.json?tasks%5B%5D%5Bname%5D=Task%20One&tasks%5B%5D%5Bname%5D=Task%20Two&tasks%5B%5D%5Bname%5D=Task%20Three
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer Gl0sZQD_0iqNeMqk9MxKAyT3Gm-JJ79ZyCnTxphs7NWxohpRynnydv6B_x1drVN25o6m7dwBWUe7EljvJPlrZmiaW9pZMwQYi7GeayLdwVhNmymlYYX_N2yKgqc6IvtWWxUIIjR5RHrSZNkkKqpsWmZ8zZmcg2Z0depXaaUwB_PhNlW9h4CV4BYdnbgVCk8EKBZGm59U0zIJRs267jeyiRtlM6VvaNpqC7IFCZ971qgb5rH0mmr-fWFpicI2vMA_FS7KMStx-OaDnQeCt5fZZNoLziwEFtpLMdBJrFP5HEvpJWJk60GKuXl2FErcnffa7WlQL9TTARNCNZIjI9RCGA==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 18:54:53 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"53e249539d9623710ca668788d83f611"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b331ed70-5e2b-4d5a-a693-5d051581e905
+      X-Runtime:
+      - '0.033283'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":7382745,"name":"Task One","notes":null,"start_date":null,"end_date":null,"start_time":null,"end_time":null,"color":"#e5c972","color_id":37,"estimated_hours":0.0,"done":false,"user_id":null,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-14T18:54:53.282+00:00","updated_at":"2017-01-14T18:54:53.282+00:00","deleted_at":null,"foreign_id":""},{"id":7382746,"name":"Task
+        Two","notes":null,"start_date":null,"end_date":null,"start_time":null,"end_time":null,"color":"#d9cca4","color_id":38,"estimated_hours":0.0,"done":false,"user_id":null,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-14T18:54:53.293+00:00","updated_at":"2017-01-14T18:54:53.293+00:00","deleted_at":null,"foreign_id":""},{"id":7382747,"name":"Task
+        Three","notes":null,"start_date":null,"end_date":null,"start_time":null,"end_time":null,"color":"#ff7f7f","color_id":7,"estimated_hours":0.0,"done":false,"user_id":null,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-14T18:54:53.300+00:00","updated_at":"2017-01-14T18:54:53.300+00:00","deleted_at":null,"foreign_id":""}]'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 18:54:53 GMT
+recorded_with: VCR 3.0.3

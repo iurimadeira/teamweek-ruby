@@ -34,5 +34,9 @@ describe 'Project API interactions', Teamweek::Api::Client, :vcr do
     expect(project.first.name).to eq "New project"
   end
 
-  xit "import projects"
+  it "import projects" do
+    projects = [{name: "Project One"}, {name: "Project Two"}, {name: "Project Three"}]
+    response = client.import_projects(projects)
+    expect(response.map(&:name)).to match_array ["Project One", "Project Two", "Project Three"]
+  end
 end

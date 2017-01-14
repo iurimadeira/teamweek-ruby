@@ -72,6 +72,10 @@ describe 'Task API interactions', Teamweek::Api::Client, :vcr do
     expect(tasks.map(&:name)).to match_array tasks_by_project
   end
 
-  xit "import tasks"
+  it "import tasks" do
+    tasks = [{name: "Task One"}, {name: "Task Two"}, {name: "Task Three"}]
+    response = client.import_tasks(tasks)
+    expect(response.map(&:name)).to match_array ["Task One", "Task Two", "Task Three"]
+  end
 
 end

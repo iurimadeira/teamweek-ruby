@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://teamweek.com/api/v3/230525/projects/bulk_import.json?projects%5B%5D%5Bname%5D=Project%20One&projects%5B%5D%5Bname%5D=Project%20Two&projects%5B%5D%5Bname%5D=Project%20Three
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer Gl0sZQD_0iqNeMqk9MxKAyT3Gm-JJ79ZyCnTxphs7NWxohpRynnydv6B_x1drVN25o6m7dwBWUe7EljvJPlrZmiaW9pZMwQYi7GeayLdwVhNmymlYYX_N2yKgqc6IvtWWxUIIjR5RHrSZNkkKqpsWmZ8zZmcg2Z0depXaaUwB_PhNlW9h4CV4BYdnbgVCk8EKBZGm59U0zIJRs267jeyiRtlM6VvaNpqC7IFCZ971qgb5rH0mmr-fWFpicI2vMA_FS7KMStx-OaDnQeCt5fZZNoLziwEFtpLMdBJrFP5HEvpJWJk60GKuXl2FErcnffa7WlQL9TTARNCNZIjI9RCGA==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 18:55:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"f2980889fcbb24b700c2f74206e765c3"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b8814c6b-70c5-4445-b760-20161f995d90
+      X-Runtime:
+      - '0.088880'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":1260765,"name":"Project One","color":"#bc7037","color_id":11,"client":null,"created_at":"2017-01-14T18:55:26.778+00:00","updated_at":"2017-01-14T18:55:26.778+00:00","foreign_id":""},{"id":1260766,"name":"Project
+        Two","color":"#b3dbe5","color_id":19,"client":null,"created_at":"2017-01-14T18:55:26.807+00:00","updated_at":"2017-01-14T18:55:26.807+00:00","foreign_id":""},{"id":1260767,"name":"Project
+        Three","color":"#bc7037","color_id":11,"client":null,"created_at":"2017-01-14T18:55:26.835+00:00","updated_at":"2017-01-14T18:55:26.835+00:00","foreign_id":""}]'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 18:55:26 GMT
+recorded_with: VCR 3.0.3

@@ -30,5 +30,9 @@ describe 'User API interactions', Teamweek::Api::Client, :vcr do
     expect(user.first.email).to eq "tequila@example.com"
   end
 
-  xit "import users"
+  it "import users" do
+    users = [{name: "User One"}, {name: "User Two"}, {name: "User Three"}]
+    response = client.import_users(users)
+    expect(response.map(&:name)).to match_array ["User One", "User Two", "User Three"]
+  end
 end
