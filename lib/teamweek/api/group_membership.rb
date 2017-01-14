@@ -9,6 +9,10 @@ module Teamweek
       attr_accessor :position
       attr_accessor :weight
 
+      def self.main_resource_name
+        "memberships"
+      end
+
       def to_hash
         {
           id: id,

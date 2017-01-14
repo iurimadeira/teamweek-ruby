@@ -45,8 +45,8 @@ module Teamweek
 
       def extract_resource_name_from_id_param(id_param, main_resource_name)
         resource_name = id_param.to_s.gsub("_id", "")
-        resource_name = main_resource_name if resource_name == "id"
-        resource_name
+        return main_resource_name if resource_name == "id"
+        resource_name + 's'
       end
     end
   end
