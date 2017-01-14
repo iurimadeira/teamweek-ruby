@@ -1,0 +1,105 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/tasks/7375749
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer smdHHPlNNYAjvHlzvFLuE-KAdpMb7xZwk3kPYOgog4EhmT61I6ySOYJum26PnmXwY3BhA2MOAsgkldwgf-WuKmzgi0uAdU2eyw2SMgi0xyUQ9pu0PLjaS_cz5HKBPpPrvIVHS6lWAGDhESkAcNzkDpG6FcTP2KpY4L-y1gkOm3rcHw5in_0EJNcQNQz9y_8mrUEspOwqM1RGQjGnwD86pcrhDEOkwtung0ZZtNirzXjHWAYYuck_8YyH64A1zBharxW8c8t--CMmvXlPGAxyk-02XSWxegzJ_u6ZB0GXfgmFB3BlGCKAN25DylthymBauWQmWBID_PzYHygXYfDKzA==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 13 Jan 2017 23:01:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"c15ad0d9ce6bb357ce7c190b5ed26baa"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2ed03c9d-55b6-4929-a890-f8c6246c708e
+      X-Runtime:
+      - '0.012128'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"id":7375749,"name":"Test","notes":"Test","start_date":"2017-01-16","end_date":"2017-01-22","start_time":null,"end_time":null,"color":"#8b992c","color_id":21,"estimated_hours":0.0,"done":false,"user_id":1054512,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-13T14:11:54.390+00:00","updated_at":"2017-01-13T22:09:48.316+00:00","deleted_at":null}'
+    http_version: 
+  recorded_at: Fri, 13 Jan 2017 23:01:26 GMT
+- request:
+    method: put
+    uri: https://teamweek.com/api/v3/230525/tasks/7375749?name=Testing
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer smdHHPlNNYAjvHlzvFLuE-KAdpMb7xZwk3kPYOgog4EhmT61I6ySOYJum26PnmXwY3BhA2MOAsgkldwgf-WuKmzgi0uAdU2eyw2SMgi0xyUQ9pu0PLjaS_cz5HKBPpPrvIVHS6lWAGDhESkAcNzkDpG6FcTP2KpY4L-y1gkOm3rcHw5in_0EJNcQNQz9y_8mrUEspOwqM1RGQjGnwD86pcrhDEOkwtung0ZZtNirzXjHWAYYuck_8YyH64A1zBharxW8c8t--CMmvXlPGAxyk-02XSWxegzJ_u6ZB0GXfgmFB3BlGCKAN25DylthymBauWQmWBID_PzYHygXYfDKzA==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Fri, 13 Jan 2017 23:01:27 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"8986c2f34397be3d79ba4187a6970dee"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 7f56bd3e-c399-491b-89c7-522099399559
+      X-Runtime:
+      - '0.069883'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"id":7375749,"name":"Testing","notes":"Test","start_date":"2017-01-16","end_date":"2017-01-22","start_time":null,"end_time":null,"color":"#8b992c","color_id":21,"estimated_hours":0.0,"done":false,"user_id":1054512,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-13T14:11:54.390+00:00","updated_at":"2017-01-13T23:01:27.544+00:00","deleted_at":null}'
+    http_version: 
+  recorded_at: Fri, 13 Jan 2017 23:01:27 GMT
+recorded_with: VCR 3.0.3

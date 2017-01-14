@@ -1,0 +1,99 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://teamweek.com/api/v3/230525/users/1054512
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer Pb2PyrbjnFXTNGn-512MEWIJnS98Yn4Jrqb-6u_v2T2P-CSEeuT8np7MZl5sn73RQRkcH_ceAJD2TcPv21CAaj2ZPYMcyzkishAXgnZUWuAXIu56GgaHwqN2LA7Oi_NK56w2OFmQBeyx3BmqixRSGRZyZ8mR_lvypC1uNslnipZCe3ZXoLcJuM5WL7RYq1wYqOe3dYTZwGZh-DdH91_20U02ZRnNixRiORi9Tt4KR42S78kd7y0zdN0touF9_VN21oR6MMP3GLc2HbDJz8ZwQYK9ktYO0NGb6kq5fDV9tG2Ma4VN4GGkzKFFABPi-P1QwHcA3S5uGc7bnBL50XVORg==
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 13:59:59 GMT
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 10d85d47-3a66-42a8-8a26-2ed0f3e6283f
+      X-Runtime:
+      - '0.027629'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 13:59:59 GMT
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer Pb2PyrbjnFXTNGn-512MEWIJnS98Yn4Jrqb-6u_v2T2P-CSEeuT8np7MZl5sn73RQRkcH_ceAJD2TcPv21CAaj2ZPYMcyzkishAXgnZUWuAXIu56GgaHwqN2LA7Oi_NK56w2OFmQBeyx3BmqixRSGRZyZ8mR_lvypC1uNslnipZCe3ZXoLcJuM5WL7RYq1wYqOe3dYTZwGZh-DdH91_20U02ZRnNixRiORi9Tt4KR42S78kd7y0zdN0touF9_VN21oR6MMP3GLc2HbDJz8ZwQYK9ktYO0NGb6kq5fDV9tG2Ma4VN4GGkzKFFABPi-P1QwHcA3S5uGc7bnBL50XVORg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 14:00:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"53835c8534b6d8236e186334c583c175"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 6ffc13ac-4451-4f3d-b583-b975a68a0c6f
+      X-Runtime:
+      - '0.014729'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":1054464,"email":"iurimadeira@gmail.com","name":"Iuri","initials":"iu","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#7fffcd","color_id":32,"weight":0,"position":0,"role":"admin","dummy":false,"active":true,"invitation":null,"created_at":"2017-01-12T11:15:21.760+00:00","updated_at":"2017-01-14T13:58:04.022+00:00"},{"id":1054513,"email":"","name":"Hugo","initials":"hu","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#ddb79b","color_id":13,"weight":2,"position":2,"role":"readonly","dummy":true,"active":true,"invitation":null,"created_at":"2017-01-12T12:18:07.338+00:00","updated_at":"2017-01-12T12:18:07.338+00:00"},{"id":1055863,"email":"","name":"Tequila","initials":"te","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#dbe87f","color_id":22,"weight":3,"position":3,"role":"readonly","dummy":true,"active":true,"invitation":null,"created_at":"2017-01-14T13:49:00.941+00:00","updated_at":"2017-01-14T13:49:00.941+00:00"},{"id":1055864,"email":"","name":"Tequila","initials":"te","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#b83535","color_id":6,"weight":4,"position":4,"role":"readonly","dummy":true,"active":true,"invitation":null,"created_at":"2017-01-14T13:50:36.738+00:00","updated_at":"2017-01-14T13:50:36.738+00:00"}]'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 14:00:00 GMT
+recorded_with: VCR 3.0.3

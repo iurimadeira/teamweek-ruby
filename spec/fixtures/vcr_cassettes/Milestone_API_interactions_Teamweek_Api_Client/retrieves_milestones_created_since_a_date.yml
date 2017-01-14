@@ -1,0 +1,55 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/milestones?since=2017-01-14T00:00:00-02:00
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer pyLIIhspoyjePeAh_M3X6MPJ-KngCn8-w6_-mOaHNF7hRKfhUQ10_Lvb7XAx65TXoZ2OyojYHXZpNxjAqHUsdU402iVxe1FssON6tEzxrT5hJ3YqcMC2l7qQZYWlGiz0m2n-7_qyfu2AADTnaWkUyCxXwD5CVRizArEbSG4NTgilPNEByZCWmkcUgjkhTsNzCrmRGHvu7rEqM12H3b5wivg_BWudmMmPJKPRJe-Vskkr4uIq0OQ6kz400jOYeI7pbBiOfMVrFYj4N6G7xm0bAqsNjii9Y2ma8Eck2C5yOPNrWPQsXNM6SbgSC1QvoDej79P0Wgh5rzxQuMXI9UyIIg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 15:05:13 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"1498f652dfaabb848a22ebb26661c5f6"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4b760ad1-3460-4f5f-a20e-611c2a9ffaad
+      X-Runtime:
+      - '0.014986'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":319816,"name":"New milestone","date":"2017-01-17","holiday":false,"done":false,"color":21,"group_id":null,"created_at":"2017-01-14T14:53:55.130+00:00","updated_at":"2017-01-14T14:57:25.627+00:00"},{"id":319815,"name":"Renamed
+        milestone","date":"2017-01-14","holiday":false,"done":false,"color":21,"group_id":175052,"created_at":"2017-01-14T14:49:19.441+00:00","updated_at":"2017-01-14T14:57:23.347+00:00"}]'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 02:00:00 GMT
+recorded_with: VCR 3.0.3

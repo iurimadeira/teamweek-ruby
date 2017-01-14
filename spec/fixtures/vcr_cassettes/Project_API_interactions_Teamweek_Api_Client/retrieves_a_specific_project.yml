@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/projects/1258677
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer HXo16MSt9r4lUp11RYagzXDlj8YYbl2UOeg8leKIS6j5n3kepHCzXXB_G4G4JGR2t0lSGFRi0wpCRUlc_j_APLwi4cW1-cY30Uz_7x6JJR8t17M5fkM4Kht3So1G64EbMxLij7_o2p_hevircmMXvVq4069dc4sY6u3FStok0yB5wHrEiDKKeirtIbkfX_KjSaB7ukYQ1EKKXefc2w15ziuTUBmPtVQjs97dS2pYy1qbhmjdn3i1bEZSUIXBvUzd0zTwq7u5c0NzexuOhBHf0ZD0z_3GDqsCoxmEnCRcrZhrCnwiGLqZQaMMgZ1zsRPA2MzJhLy-RN7DsPc6jfg2ZQ==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 14:40:11 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"a44459ead899ba89f166abcf68e08284"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b3a24f2d-3f4c-4d4c-9de2-de521e3da0d5
+      X-Runtime:
+      - '0.011745'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"id":1258677,"name":"My first project","color":"#a8ced7","color_id":18,"client":null,"created_at":"2017-01-12T12:17:55.800+00:00","updated_at":"2017-01-12T12:17:55.800+00:00"}'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 14:40:12 GMT
+recorded_with: VCR 3.0.3

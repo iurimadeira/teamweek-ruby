@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/tasks/7375749
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer p8ulRZh2GvLU5VSZCf5jm6Xq3uVMHAUb0830MKrtf64XwKrzdE0B98zut3-dMpD16k55ZH8acB5Pi9deBshnkG7nC_jnMpLiMhcu4y_cO03GSuyy1yYIWlyyAp9q4Ad8MBv2eAkwpdjQxAC9_i2_r2m-ADZDPhces74exW5hPYoDqk1Nk5ONGNmzuT1WexKwCK0wvYZaJTB1fBPFo8y5VVigfDRt6AEHmwfKETGmgS4ftHIJqKaMmbOqREFCqYcCiLC9_9y4Wg_NjxdNpzIZn3792O_XCkOz3PiXUK_oxeeTk7sgLameFtu_822SuJTonH8IigcBpDjj8bC7JBOE8Q==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 02:37:59 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"8986c2f34397be3d79ba4187a6970dee"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - a6eb1233-192e-4457-bcd9-575098d68e4d
+      X-Runtime:
+      - '0.012183'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"id":7375749,"name":"Test","notes":"Test","start_date":"2017-01-16","end_date":"2017-01-22","start_time":null,"end_time":null,"color":"#8b992c","color_id":21,"estimated_hours":0.0,"done":false,"user_id":1054512,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-13T14:11:54.390+00:00","updated_at":"2017-01-13T23:01:27.544+00:00","deleted_at":null}'
+    http_version:
+  recorded_at: Sat, 14 Jan 2017 02:37:59 GMT
+- request:
+    method: delete
+    uri: https://teamweek.com/api/v3/230525/tasks/7375749
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer p8ulRZh2GvLU5VSZCf5jm6Xq3uVMHAUb0830MKrtf64XwKrzdE0B98zut3-dMpD16k55ZH8acB5Pi9deBshnkG7nC_jnMpLiMhcu4y_cO03GSuyy1yYIWlyyAp9q4Ad8MBv2eAkwpdjQxAC9_i2_r2m-ADZDPhces74exW5hPYoDqk1Nk5ONGNmzuT1WexKwCK0wvYZaJTB1fBPFo8y5VVigfDRt6AEHmwfKETGmgS4ftHIJqKaMmbOqREFCqYcCiLC9_9y4Wg_NjxdNpzIZn3792O_XCkOz3PiXUK_oxeeTk7sgLameFtu_822SuJTonH8IigcBpDjj8bC7JBOE8Q==
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 02:38:00 GMT
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 75417979-89bf-48b1-8c71-384e2768b425
+      X-Runtime:
+      - '0.048066'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version:
+  recorded_at: Sat, 14 Jan 2017 02:38:00 GMT
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/tasks/7375749
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer p8ulRZh2GvLU5VSZCf5jm6Xq3uVMHAUb0830MKrtf64XwKrzdE0B98zut3-dMpD16k55ZH8acB5Pi9deBshnkG7nC_jnMpLiMhcu4y_cO03GSuyy1yYIWlyyAp9q4Ad8MBv2eAkwpdjQxAC9_i2_r2m-ADZDPhces74exW5hPYoDqk1Nk5ONGNmzuT1WexKwCK0wvYZaJTB1fBPFo8y5VVigfDRt6AEHmwfKETGmgS4ftHIJqKaMmbOqREFCqYcCiLC9_9y4Wg_NjxdNpzIZn3792O_XCkOz3PiXUK_oxeeTk7sgLameFtu_822SuJTonH8IigcBpDjj8bC7JBOE8Q==
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 02:38:01 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 5139bfb7-8e5c-4e12-bc23-d5e6b48289ac
+      X-Runtime:
+      - '0.013957'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"message":"Resource is not found."}'
+    http_version:
+  recorded_at: Sat, 14 Jan 2017 02:38:01 GMT
+recorded_with: VCR 3.0.3

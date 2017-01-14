@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://teamweek.com/api/v3/230525/milestones?date=2017-01-20T00:00:00-02:00&name=New%20milestone
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer HXo16MSt9r4lUp11RYagzXDlj8YYbl2UOeg8leKIS6j5n3kepHCzXXB_G4G4JGR2t0lSGFRi0wpCRUlc_j_APLwi4cW1-cY30Uz_7x6JJR8t17M5fkM4Kht3So1G64EbMxLij7_o2p_hevircmMXvVq4069dc4sY6u3FStok0yB5wHrEiDKKeirtIbkfX_KjSaB7ukYQ1EKKXefc2w15ziuTUBmPtVQjs97dS2pYy1qbhmjdn3i1bEZSUIXBvUzd0zTwq7u5c0NzexuOhBHf0ZD0z_3GDqsCoxmEnCRcrZhrCnwiGLqZQaMMgZ1zsRPA2MzJhLy-RN7DsPc6jfg2ZQ==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 14:53:55 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"6915333826f6dc37dc730f4b827f6764"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 4259c949-e9fc-44e7-a808-79b175bdb50e
+      X-Runtime:
+      - '0.044160'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"id":319816,"name":"New milestone","date":"2017-01-20","holiday":false,"done":false,"color":21,"group_id":null,"created_at":"2017-01-14T14:53:55.130+00:00","updated_at":"2017-01-14T14:53:55.130+00:00"}'
+    http_version: 
+  recorded_at: Fri, 20 Jan 2017 02:00:00 GMT
+recorded_with: VCR 3.0.3

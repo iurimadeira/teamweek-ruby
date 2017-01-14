@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: put
+    uri: https://teamweek.com/api/v3/230525/users/1055865/email?email=tequila@example.com
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Authorization:
+      - Bearer HXo16MSt9r4lUp11RYagzXDlj8YYbl2UOeg8leKIS6j5n3kepHCzXXB_G4G4JGR2t0lSGFRi0wpCRUlc_j_APLwi4cW1-cY30Uz_7x6JJR8t17M5fkM4Kht3So1G64EbMxLij7_o2p_hevircmMXvVq4069dc4sY6u3FStok0yB5wHrEiDKKeirtIbkfX_KjSaB7ukYQ1EKKXefc2w15ziuTUBmPtVQjs97dS2pYy1qbhmjdn3i1bEZSUIXBvUzd0zTwq7u5c0NzexuOhBHf0ZD0z_3GDqsCoxmEnCRcrZhrCnwiGLqZQaMMgZ1zsRPA2MzJhLy-RN7DsPc6jfg2ZQ==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 14:17:48 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"29c93d4142f4b916c3cba7c6808018b0"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ce29a705-efac-46d5-ae13-b448add2b037
+      X-Runtime:
+      - '0.047702'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '{"id":1055865,"email":"tequila@example.com","name":"Tequila","initials":"te","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#ffbb89","color_id":12,"weight":3,"position":3,"role":"readonly","dummy":true,"active":true,"invitation":{"id":67273,"email":"tequila@example.com","link":"https://app.teamweek.com/#invitation/tequila@example.com/df6a94c7c2eb58369b095c62816880df"},"created_at":"2017-01-14T14:16:38.747+00:00","updated_at":"2017-01-14T14:16:38.747+00:00"}'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 14:17:48 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/projects
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer HXo16MSt9r4lUp11RYagzXDlj8YYbl2UOeg8leKIS6j5n3kepHCzXXB_G4G4JGR2t0lSGFRi0wpCRUlc_j_APLwi4cW1-cY30Uz_7x6JJR8t17M5fkM4Kht3So1G64EbMxLij7_o2p_hevircmMXvVq4069dc4sY6u3FStok0yB5wHrEiDKKeirtIbkfX_KjSaB7ukYQ1EKKXefc2w15ziuTUBmPtVQjs97dS2pYy1qbhmjdn3i1bEZSUIXBvUzd0zTwq7u5c0NzexuOhBHf0ZD0z_3GDqsCoxmEnCRcrZhrCnwiGLqZQaMMgZ1zsRPA2MzJhLy-RN7DsPc6jfg2ZQ==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 14:40:12 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"7923797951bfaaf4feb9856d5844e3e7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d1a6891b-da46-44fc-9f0d-d0174ac9a427
+      X-Runtime:
+      - '0.009297'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":1258677,"name":"My first project","color":"#a8ced7","color_id":18,"client":null,"created_at":"2017-01-12T12:17:55.800+00:00","updated_at":"2017-01-12T12:17:55.800+00:00"},{"id":1260050,"name":"My
+        second project","color":"#f99bd0","color_id":5,"client":null,"created_at":"2017-01-13T14:54:02.402+00:00","updated_at":"2017-01-13T14:54:02.402+00:00"},{"id":1260700,"name":"New
+        project","color":"#dbe87f","color_id":22,"client":null,"created_at":"2017-01-14T14:31:41.687+00:00","updated_at":"2017-01-14T14:31:41.687+00:00"}]'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 14:40:12 GMT
+recorded_with: VCR 3.0.3

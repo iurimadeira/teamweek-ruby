@@ -2,6 +2,7 @@ module Teamweek
   module Api
     class Client
       include Teamweek::Api::Importer
+      include Teamweek::Api::PathBuilder
       attr_accessor :client
       attr_accessor :base_uri
 
@@ -34,20 +35,30 @@ module Teamweek
         bulk_import('tasks', data, Teamweek::Api::Task)
       end
 
-      def fetch(entity, path = [], params = {})
-        resources = client.get(full_path(path), params)
-        resources.map { |resource| entity.new(resource) }
+      def fetch(entity, params = {})
+        resources = client.get(full_path(entity, params), params)
+        map_resources(entity, resources)
+      end
+
+      def update(entity, objects = {})
+        resources = client.put(full_path(entity, objects), objects)
+        map_resources(entity, resources)
+      end
+
+      def create(entity, objects = {})
+        resources = client.post(full_path(entity, objects), objects)
+        map_resources(entity, resources)
+      end
+
+      def delete(entity, objects = {})
+        client.delete(full_path(entity, objects), objects)
       end
 
       private
 
-      def set_base_uri(site, account_id)
-        site ||= "https://teamweek.com"
-        @base_uri = "#{site}/api/v3/#{account_id}"
-      end
-
-      def full_path(terms)
-        base_uri + '/' + terms.join('/')
+      def map_resources(entity, resources)
+        resources = [resources] unless resources.is_a?(Array)
+        resources.map { |resource| entity.new(resource) }
       end
     end
   end

@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/tasks?until=2017-01-14T00:00:00-02:00
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer Pb2PyrbjnFXTNGn-512MEWIJnS98Yn4Jrqb-6u_v2T2P-CSEeuT8np7MZl5sn73RQRkcH_ceAJD2TcPv21CAaj2ZPYMcyzkishAXgnZUWuAXIu56GgaHwqN2LA7Oi_NK56w2OFmQBeyx3BmqixRSGRZyZ8mR_lvypC1uNslnipZCe3ZXoLcJuM5WL7RYq1wYqOe3dYTZwGZh-DdH91_20U02ZRnNixRiORi9Tt4KR42S78kd7y0zdN0touF9_VN21oR6MMP3GLc2HbDJz8ZwQYK9ktYO0NGb6kq5fDV9tG2Ma4VN4GGkzKFFABPi-P1QwHcA3S5uGc7bnBL50XVORg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 13:35:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"0f939a961f27730967e3a43dd37d82f8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 80a5739e-fdc1-4929-96b9-a584e71d0b46
+      X-Runtime:
+      - '0.015184'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":7381634,"name":"Task from the past","notes":null,"start_date":"2017-01-14","end_date":"2017-01-14","start_time":null,"end_time":null,"color":"#8b992c","color_id":21,"estimated_hours":0.0,"done":false,"user_id":1054512,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-12T02:38:34.013+00:00","updated_at":"2017-01-12T12:30:05.331+00:00","deleted_at":null}, {"id":7382275,"name":"Today''s task","notes":null,"start_date":"2017-01-16","end_date":"2017-01-16","start_time":null,"end_time":null,"color":"#8b992c","color_id":21,"estimated_hours":0.0,"done":false,"user_id":1055852,"project_id":null,"project":null,"folder_id":null,"weight":0.0,"created_at":"2017-01-14T12:30:45.272+00:00","updated_at":"2017-01-14T13:21:51.653+00:00","deleted_at":null}]'
+    http_version:
+  recorded_at: Sat, 14 Jan 2017 02:00:00 GMT
+recorded_with: VCR 3.0.3

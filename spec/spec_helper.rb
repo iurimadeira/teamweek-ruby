@@ -2,6 +2,7 @@ require 'teamweek-ruby'
 require 'teamweek/api/test/http_client'
 require 'webmock/rspec'
 require 'vcr'
+require 'timecop'
 
 Dir[File.join('spec/support/**/*.rb')].each { |f| require "./#{f}" }
 

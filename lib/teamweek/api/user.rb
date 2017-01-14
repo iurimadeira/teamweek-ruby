@@ -1,7 +1,6 @@
 module Teamweek
   module Api
-    class User
-      include Teamweek::Api::HashConstructed
+    class User < Resource
       attr_accessor :id
       attr_accessor :name
       attr_accessor :email

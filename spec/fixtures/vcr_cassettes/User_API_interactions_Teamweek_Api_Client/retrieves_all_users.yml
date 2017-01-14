@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://teamweek.com/api/v3/230525/users
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Bearer Pb2PyrbjnFXTNGn-512MEWIJnS98Yn4Jrqb-6u_v2T2P-CSEeuT8np7MZl5sn73RQRkcH_ceAJD2TcPv21CAaj2ZPYMcyzkishAXgnZUWuAXIu56GgaHwqN2LA7Oi_NK56w2OFmQBeyx3BmqixRSGRZyZ8mR_lvypC1uNslnipZCe3ZXoLcJuM5WL7RYq1wYqOe3dYTZwGZh-DdH91_20U02ZRnNixRiORi9Tt4KR42S78kd7y0zdN0touF9_VN21oR6MMP3GLc2HbDJz8ZwQYK9ktYO0NGb6kq5fDV9tG2Ma4VN4GGkzKFFABPi-P1QwHcA3S5uGc7bnBL50XVORg==
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx
+      Date:
+      - Sat, 14 Jan 2017 13:49:00 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Keep-Alive:
+      - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"9fc2fe573e6d7c7c429c7ccac9b82128"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - bbdad10f-6cb6-4b98-8993-bf7091b65907
+      X-Runtime:
+      - '0.019605'
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, PATCH, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+    body:
+      encoding: UTF-8
+      string: '[{"id":1054464,"email":"iurimadeira@gmail.com","name":"Iuri","initials":"iu","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#7fffcd","color_id":32,"weight":0,"position":0,"role":"admin","dummy":false,"active":true,"invitation":null,"created_at":"2017-01-12T11:15:21.760+00:00","updated_at":"2017-01-13T15:12:37.999+00:00"},{"id":1054512,"email":"","name":"Caroline","initials":"ca","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#f0e7cd","color_id":39,"weight":1,"position":1,"role":"readonly","dummy":true,"active":true,"invitation":null,"created_at":"2017-01-12T12:17:55.771+00:00","updated_at":"2017-01-14T13:28:10.841+00:00"},{"id":1054513,"email":"","name":"Hugo","initials":"hu","picture_url":"/avatars/s50/missing.png","has_picture":false,"color":"#ddb79b","color_id":13,"weight":2,"position":2,"role":"readonly","dummy":true,"active":true,"invitation":null,"created_at":"2017-01-12T12:18:07.338+00:00","updated_at":"2017-01-12T12:18:07.338+00:00"}]'
+    http_version: 
+  recorded_at: Sat, 14 Jan 2017 13:49:00 GMT
+recorded_with: VCR 3.0.3

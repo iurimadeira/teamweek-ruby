@@ -10,29 +10,30 @@ module Teamweek
           @headers = headers
         end
 
+        def send_request(method, uri, parameters)
+          response = HTTParty.send(method, uri, headers: headers, query: parameters)
+          return response.parsed_response if [200, 204].include? response.code
+          response
+        end
+
         def get(uri, parameters = {})
-          request = HTTParty.get(uri, headers: headers, query: parameters)
-          request.parsed_response
+          send_request(:get, uri, parameters)
         end
 
         def post(uri, parameters = {})
-          request = HTTParty.post(uri, headers: headers, body: parameters)
-          request.parsed_response
+          send_request(:post, uri, parameters)
         end
 
         def patch(uri, parameters = {})
-          request = HTTParty.patch(uri, headers: headers, body: parameters)
-          request.parsed_response
+          send_request(:patch, uri, parameters)
         end
 
         def put(uri, parameters = {})
-          request = HTTParty.put(uri, headers: headers, body: parameters)
-          request.parsed_response
+          send_request(:put, uri, parameters)
         end
 
         def delete(uri, parameters = {})
-          request = HTTParty.delete(uri, headers: headers, body: parameters)
-          request.parsed_response
+          send_request(:delete, uri, parameters)
         end
       end
     end

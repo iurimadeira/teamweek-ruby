@@ -1,7 +1,6 @@
 module Teamweek
   module Api
-    class Task
-      include Teamweek::Api::HashConstructed
+    class Task < Resource
       attr_accessor :id
       attr_accessor :project_id
       attr_accessor :user_id
