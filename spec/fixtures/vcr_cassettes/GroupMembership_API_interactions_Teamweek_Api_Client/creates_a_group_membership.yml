@@ -2,22 +2,22 @@
 http_interactions:
 - request:
     method: post
-    uri: https://teamweek.com/api/v3/230525/groups/175052/memberships?user_id=1054512
+    uri: https://teamweek.com/api/v3/230525/groups/175548/memberships?user_id=1054513
     body:
       encoding: UTF-8
       string: ''
     headers:
       Authorization:
-      - Bearer WKTp32hQr1HIC_v9cCG6LyoH_gRcLuBUxB9iC6xgGfoYXNQWnFOqqUC1ROluqtfOWbuUNPAuEiEXyKVT1v9VgIxnmc2WkbbwZs86f-1in8xa2ps0gkgD9jr8bCit33sLqf2SkPQPbhksq2BKuoL1S36GZzMwPUozajwIQ3wx9so2Wb3TOelCsFLyAZHAHDdz_9cPMnXw_hslpjesu-cevtC3_41UbJy_Lh5EBVfVe9o5Bl-IuSOPR7X3XclKi4uFzMxNvPl7pbl2FLpIJZOnb8PDHRQ6C7R-u91kDKv1oblrWamNcIFWMCYcynfGLcMwj1D41IP8Dz6gULdLcTXzZA==
+      - Bearer nXqn3Bt4Knud4NIc5yMaMNKEgOHIugO0CGIs69q84P1xobpiZ0msyGX8rssZFowcKNL7oVpxD5EUwgRG4zaBeuvTHCz_2GmasqCoEBpSnnHeTiAog87wq07UXVCo2RD8v3HOJve4RxoZLfnauOAlZtorWcXm2U6v6TmxHgFY2FA6tQg7oW0E-8A6eidvMpv6j1h2bBAlDayyimcSedFxu0G9n4eMrfOvmp4JgWtMyyKGrD8g57IPwReyiCvmkuuT-vTrjY4yApVqR2ud8etrAycmfoHNucxskTHKxisu0tEN8f8p7dy8g4NLBJnRp8WjeQ3xp80cCMscCU6vwebR7A==
   response:
     status:
-      code: 404
-      message: Not Found
+      code: 200
+      message: OK
     headers:
       Server:
       - nginx
       Date:
-      - Sat, 14 Jan 2017 16:53:06 GMT
+      - Sat, 14 Jan 2017 21:05:55 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -32,12 +32,14 @@ http_interactions:
       - 1; mode=block
       X-Content-Type-Options:
       - nosniff
+      Etag:
+      - W/"a03048543588bcd5c81ce2156b574ebe"
       Cache-Control:
-      - no-cache
+      - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fcce5dcd-5980-4ffa-aab5-f2b6c3121fd6
+      - 8e9380f0-1241-4d78-8c41-745749d2ca21
       X-Runtime:
-      - '0.010572'
+      - '0.021574'
       Access-Control-Allow-Credentials:
       - 'false'
       Access-Control-Allow-Methods:
@@ -46,7 +48,7 @@ http_interactions:
       - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
     body:
       encoding: UTF-8
-      string: '{"message":"Resource is not found."}'
+      string: '{"id":599783,"group_id":175548,"user_id":1054513,"weight":11,"position":11,"created_at":"2017-01-14T21:05:55.144+00:00","updated_at":"2017-01-14T21:05:55.144+00:00"}'
     http_version: 
   recorded_at: Fri, 20 Jan 2017 02:00:00 GMT
 recorded_with: VCR 3.0.3

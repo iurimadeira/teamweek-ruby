@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       Authorization:
-      - Bearer WKTp32hQr1HIC_v9cCG6LyoH_gRcLuBUxB9iC6xgGfoYXNQWnFOqqUC1ROluqtfOWbuUNPAuEiEXyKVT1v9VgIxnmc2WkbbwZs86f-1in8xa2ps0gkgD9jr8bCit33sLqf2SkPQPbhksq2BKuoL1S36GZzMwPUozajwIQ3wx9so2Wb3TOelCsFLyAZHAHDdz_9cPMnXw_hslpjesu-cevtC3_41UbJy_Lh5EBVfVe9o5Bl-IuSOPR7X3XclKi4uFzMxNvPl7pbl2FLpIJZOnb8PDHRQ6C7R-u91kDKv1oblrWamNcIFWMCYcynfGLcMwj1D41IP8Dz6gULdLcTXzZA==
+      - Bearer Gl0sZQD_0iqNeMqk9MxKAyT3Gm-JJ79ZyCnTxphs7NWxohpRynnydv6B_x1drVN25o6m7dwBWUe7EljvJPlrZmiaW9pZMwQYi7GeayLdwVhNmymlYYX_N2yKgqc6IvtWWxUIIjR5RHrSZNkkKqpsWmZ8zZmcg2Z0depXaaUwB_PhNlW9h4CV4BYdnbgVCk8EKBZGm59U0zIJRs267jeyiRtlM6VvaNpqC7IFCZ971qgb5rH0mmr-fWFpicI2vMA_FS7KMStx-OaDnQeCt5fZZNoLziwEFtpLMdBJrFP5HEvpJWJk60GKuXl2FErcnffa7WlQL9TTARNCNZIjI9RCGA==
   response:
     status:
       code: 200
@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 14 Jan 2017 16:23:41 GMT
+      - Sat, 14 Jan 2017 19:25:01 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -33,13 +33,13 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Etag:
-      - W/"5e904acbbbd40d65287ee91924e7c756"
+      - W/"34ed2ed5dd77b0178f9f3374d7d1d62a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f99ad004-d3dc-4b6b-a76b-765e5c182d81
+      - 716fdc78-2ca6-4316-a40e-8ef61265432e
       X-Runtime:
-      - '0.013698'
+      - '0.018242'
       Access-Control-Allow-Credentials:
       - 'false'
       Access-Control-Allow-Methods:
@@ -48,8 +48,8 @@ http_interactions:
       - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
     body:
       encoding: UTF-8
-      string: '[{"id":175052,"name":"First user group","account_id":230525,"memberships":[{"id":598083,"group_id":175052,"user_id":1054513,"weight":2,"position":2,"created_at":"2017-01-12T12:18:07.550+00:00","updated_at":"2017-01-14T13:21:45.622+00:00"},{"id":598028,"group_id":175052,"user_id":1054464,"weight":0,"position":0,"created_at":"2017-01-12T11:15:21.784+00:00","updated_at":"2017-01-12T11:15:21.784+00:00"}],"created_at":"2017-01-12T11:15:21.775+00:00","updated_at":"2017-01-12T11:15:21.775+00:00"},{"id":175531,"name":"New
-        group","account_id":230525,"memberships":[],"created_at":"2017-01-14T16:23:37.340+00:00","updated_at":"2017-01-14T16:23:37.340+00:00"}]'
+      string: '[{"id":175531,"name":"First user group","account_id":230525,"memberships":[],"created_at":"2017-01-14T16:23:37.340+00:00","updated_at":"2017-01-14T19:21:27.087+00:00"},{"id":175544,"name":"New
+        group","account_id":230525,"memberships":[],"created_at":"2017-01-14T19:24:59.433+00:00","updated_at":"2017-01-14T19:24:59.433+00:00"}]'
     http_version: 
-  recorded_at: Sat, 14 Jan 2017 16:23:41 GMT
+  recorded_at: Sat, 14 Jan 2017 19:25:01 GMT
 recorded_with: VCR 3.0.3

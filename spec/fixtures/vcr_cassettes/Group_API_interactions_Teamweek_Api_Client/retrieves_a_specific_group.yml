@@ -2,13 +2,13 @@
 http_interactions:
 - request:
     method: get
-    uri: https://teamweek.com/api/v3/230525/groups/175052
+    uri: https://teamweek.com/api/v3/230525/groups/175548
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Authorization:
-      - Bearer WKTp32hQr1HIC_v9cCG6LyoH_gRcLuBUxB9iC6xgGfoYXNQWnFOqqUC1ROluqtfOWbuUNPAuEiEXyKVT1v9VgIxnmc2WkbbwZs86f-1in8xa2ps0gkgD9jr8bCit33sLqf2SkPQPbhksq2BKuoL1S36GZzMwPUozajwIQ3wx9so2Wb3TOelCsFLyAZHAHDdz_9cPMnXw_hslpjesu-cevtC3_41UbJy_Lh5EBVfVe9o5Bl-IuSOPR7X3XclKi4uFzMxNvPl7pbl2FLpIJZOnb8PDHRQ6C7R-u91kDKv1oblrWamNcIFWMCYcynfGLcMwj1D41IP8Dz6gULdLcTXzZA==
+      - Bearer IfWyH2oCigJVqYr6f7GN_WWVGGq_XVHWdZ7RQYxmWilZnuVHy0kL_XWOKhfU2R4cNoD6ob6g_EJttpLy5NRvWaWO-xUwQUG5XeZyAxbPZAgZMU6Ex9-IySKWS0HifALyhzvkW1PyP6R3JiD9PttxfjgNsGa_t9K0m3y0fjFE3scftSlfoEySQ1IHQfmzS4eqq_jJTOj3zj-2FGiafianMdSfiP6R9GgXS_ISwOmmJpcBl9CLYPcEsYZsnViSW8WejTx4Z_M6oUHYxUFIJUtFD2ITXRgBiGxYu2pptr5BXfcyaMit0_4kUV4OvXTBGATWxbyi_2ypQgJfzeHG-VDUyw==
   response:
     status:
       code: 500
@@ -17,7 +17,7 @@ http_interactions:
       Server:
       - nginx
       Date:
-      - Sat, 14 Jan 2017 16:29:15 GMT
+      - Sat, 14 Jan 2017 19:49:04 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -27,9 +27,9 @@ http_interactions:
       Keep-Alive:
       - timeout=20
       X-Request-Id:
-      - 3edcca6d-8304-4140-af4e-6e17188456b0
+      - d6efbe69-8753-43fe-a3a4-53cb36582fc8
       X-Runtime:
-      - '0.061081'
+      - '0.074429'
       Access-Control-Allow-Credentials:
       - 'false'
       Access-Control-Allow-Methods:
@@ -40,5 +40,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"status":"500","error":"Internal Server Error"}'
     http_version: 
-  recorded_at: Sat, 14 Jan 2017 16:29:16 GMT
+  recorded_at: Sat, 14 Jan 2017 19:49:03 GMT
 recorded_with: VCR 3.0.3

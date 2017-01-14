@@ -2,34 +2,44 @@
 http_interactions:
 - request:
     method: get
-    uri: https://teamweek.com/api/v3/230525/groups/175052/memberships
+    uri: https://teamweek.com/api/v3/230525/groups/175548/memberships
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Authorization:
-      - Bearer WKTp32hQr1HIC_v9cCG6LyoH_gRcLuBUxB9iC6xgGfoYXNQWnFOqqUC1ROluqtfOWbuUNPAuEiEXyKVT1v9VgIxnmc2WkbbwZs86f-1in8xa2ps0gkgD9jr8bCit33sLqf2SkPQPbhksq2BKuoL1S36GZzMwPUozajwIQ3wx9so2Wb3TOelCsFLyAZHAHDdz_9cPMnXw_hslpjesu-cevtC3_41UbJy_Lh5EBVfVe9o5Bl-IuSOPR7X3XclKi4uFzMxNvPl7pbl2FLpIJZOnb8PDHRQ6C7R-u91kDKv1oblrWamNcIFWMCYcynfGLcMwj1D41IP8Dz6gULdLcTXzZA==
+      - Bearer nXqn3Bt4Knud4NIc5yMaMNKEgOHIugO0CGIs69q84P1xobpiZ0msyGX8rssZFowcKNL7oVpxD5EUwgRG4zaBeuvTHCz_2GmasqCoEBpSnnHeTiAog87wq07UXVCo2RD8v3HOJve4RxoZLfnauOAlZtorWcXm2U6v6TmxHgFY2FA6tQg7oW0E-8A6eidvMpv6j1h2bBAlDayyimcSedFxu0G9n4eMrfOvmp4JgWtMyyKGrD8g57IPwReyiCvmkuuT-vTrjY4yApVqR2ud8etrAycmfoHNucxskTHKxisu0tEN8f8p7dy8g4NLBJnRp8WjeQ3xp80cCMscCU6vwebR7A==
   response:
     status:
-      code: 500
-      message: Internal Server Error
+      code: 200
+      message: OK
     headers:
       Server:
       - nginx
       Date:
-      - Sat, 14 Jan 2017 16:52:57 GMT
+      - Sat, 14 Jan 2017 20:59:39 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Content-Length:
-      - '48'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Keep-Alive:
       - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"362ad76ad786195eddcd3dfe51726c34"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f45ec1c3-691d-48a7-8680-92d1c6964bd5
+      - 4c258024-658b-4f47-a0d0-209acf973734
       X-Runtime:
-      - '0.052250'
+      - '0.011582'
       Access-Control-Allow-Credentials:
       - 'false'
       Access-Control-Allow-Methods:
@@ -38,39 +48,43 @@ http_interactions:
       - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
     body:
       encoding: UTF-8
-      string: '{"status":"500","error":"Internal Server Error"}'
+      string: '[{"id":599782,"group_id":175548,"user_id":1054464,"weight":3,"position":3,"created_at":"2017-01-14T20:51:13.148+00:00","updated_at":"2017-01-14T20:51:13.148+00:00"},{"id":599781,"group_id":175548,"user_id":1054513,"weight":2,"position":2,"created_at":"2017-01-14T20:51:11.409+00:00","updated_at":"2017-01-14T20:51:11.409+00:00"},{"id":599780,"group_id":175548,"user_id":1054513,"weight":1,"position":1,"created_at":"2017-01-14T20:51:11.387+00:00","updated_at":"2017-01-14T20:51:11.387+00:00"},{"id":599779,"group_id":175548,"user_id":1055865,"weight":0,"position":0,"created_at":"2017-01-14T20:50:35.960+00:00","updated_at":"2017-01-14T20:50:35.960+00:00"}]'
     http_version: 
-  recorded_at: Sat, 14 Jan 2017 16:52:57 GMT
+  recorded_at: Sat, 14 Jan 2017 20:59:39 GMT
 - request:
     method: delete
-    uri: https://teamweek.com/api/v3/230525/groups/memberships/598083
+    uri: https://teamweek.com/api/v3/230525/groups/175548/memberships/599782
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Authorization:
-      - Bearer WKTp32hQr1HIC_v9cCG6LyoH_gRcLuBUxB9iC6xgGfoYXNQWnFOqqUC1ROluqtfOWbuUNPAuEiEXyKVT1v9VgIxnmc2WkbbwZs86f-1in8xa2ps0gkgD9jr8bCit33sLqf2SkPQPbhksq2BKuoL1S36GZzMwPUozajwIQ3wx9so2Wb3TOelCsFLyAZHAHDdz_9cPMnXw_hslpjesu-cevtC3_41UbJy_Lh5EBVfVe9o5Bl-IuSOPR7X3XclKi4uFzMxNvPl7pbl2FLpIJZOnb8PDHRQ6C7R-u91kDKv1oblrWamNcIFWMCYcynfGLcMwj1D41IP8Dz6gULdLcTXzZA==
+      - Bearer nXqn3Bt4Knud4NIc5yMaMNKEgOHIugO0CGIs69q84P1xobpiZ0msyGX8rssZFowcKNL7oVpxD5EUwgRG4zaBeuvTHCz_2GmasqCoEBpSnnHeTiAog87wq07UXVCo2RD8v3HOJve4RxoZLfnauOAlZtorWcXm2U6v6TmxHgFY2FA6tQg7oW0E-8A6eidvMpv6j1h2bBAlDayyimcSedFxu0G9n4eMrfOvmp4JgWtMyyKGrD8g57IPwReyiCvmkuuT-vTrjY4yApVqR2ud8etrAycmfoHNucxskTHKxisu0tEN8f8p7dy8g4NLBJnRp8WjeQ3xp80cCMscCU6vwebR7A==
   response:
     status:
-      code: 404
-      message: Not Found
+      code: 204
+      message: No Content
     headers:
       Server:
       - nginx
       Date:
-      - Sat, 14 Jan 2017 16:52:59 GMT
-      Content-Type:
-      - text/html; charset=utf-8
-      Content-Length:
-      - '1246'
+      - Sat, 14 Jan 2017 20:59:40 GMT
       Connection:
       - keep-alive
       Keep-Alive:
       - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Cache-Control:
+      - no-cache
       X-Request-Id:
-      - e18dd79e-781e-4568-b315-51e13927e4cd
+      - c16b64eb-1a7c-4ca6-92c9-a876058fdae7
       X-Runtime:
-      - '0.003190'
+      - '0.024152'
       Access-Control-Allow-Credentials:
       - 'false'
       Access-Control-Allow-Methods:
@@ -79,60 +93,49 @@ http_interactions:
       - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
     body:
       encoding: UTF-8
-      string: |-
-        <!doctype html>
-        <!--[if lt IE 7]> <html class="no-js ie6 oldie"> <![endif]-->
-        <!--[if IE 7]>    <html class="no-js ie7 oldie"> <![endif]-->
-        <!--[if IE 8]>    <html class="no-js ie8 oldie"> <![endif]-->
-        <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-        <head>
-          <meta charset="utf-8">
-          <title>Teamweek - 404 Page not found</title>
-
-          <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        </head>
-        <body class="error-page">
-        <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-          <div style="font-family: Helvetica, Arial, sans-serif; text-align: center; padding: 50px;">
-            <h1>Not found :(</h1>
-            <p>You have reached a place which is... <span>Not here</span>. Maybe it was an outdated link? Check the link or try returning where you came from.</p>
-            <p>You might go to <a href="https://teamweek.com">Teamweek home</a> to start over or check the <a href="http://support.teamweek.com/">knowledge base</a> on how to get help.</p>
-            <a href="https://teamweek.com">Teamweek</a>
-          </div>
-        </body>
-        </html>
+      string: ''
     http_version: 
-  recorded_at: Sat, 14 Jan 2017 16:53:00 GMT
+  recorded_at: Sat, 14 Jan 2017 20:59:40 GMT
 - request:
     method: get
-    uri: https://teamweek.com/api/v3/230525/groups/175052/memberships
+    uri: https://teamweek.com/api/v3/230525/groups/175548/memberships
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Authorization:
-      - Bearer WKTp32hQr1HIC_v9cCG6LyoH_gRcLuBUxB9iC6xgGfoYXNQWnFOqqUC1ROluqtfOWbuUNPAuEiEXyKVT1v9VgIxnmc2WkbbwZs86f-1in8xa2ps0gkgD9jr8bCit33sLqf2SkPQPbhksq2BKuoL1S36GZzMwPUozajwIQ3wx9so2Wb3TOelCsFLyAZHAHDdz_9cPMnXw_hslpjesu-cevtC3_41UbJy_Lh5EBVfVe9o5Bl-IuSOPR7X3XclKi4uFzMxNvPl7pbl2FLpIJZOnb8PDHRQ6C7R-u91kDKv1oblrWamNcIFWMCYcynfGLcMwj1D41IP8Dz6gULdLcTXzZA==
+      - Bearer nXqn3Bt4Knud4NIc5yMaMNKEgOHIugO0CGIs69q84P1xobpiZ0msyGX8rssZFowcKNL7oVpxD5EUwgRG4zaBeuvTHCz_2GmasqCoEBpSnnHeTiAog87wq07UXVCo2RD8v3HOJve4RxoZLfnauOAlZtorWcXm2U6v6TmxHgFY2FA6tQg7oW0E-8A6eidvMpv6j1h2bBAlDayyimcSedFxu0G9n4eMrfOvmp4JgWtMyyKGrD8g57IPwReyiCvmkuuT-vTrjY4yApVqR2ud8etrAycmfoHNucxskTHKxisu0tEN8f8p7dy8g4NLBJnRp8WjeQ3xp80cCMscCU6vwebR7A==
   response:
     status:
-      code: 500
-      message: Internal Server Error
+      code: 200
+      message: OK
     headers:
       Server:
       - nginx
       Date:
-      - Sat, 14 Jan 2017 16:53:03 GMT
+      - Sat, 14 Jan 2017 20:59:41 GMT
       Content-Type:
       - application/json; charset=utf-8
-      Content-Length:
-      - '48'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
       Keep-Alive:
       - timeout=20
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Etag:
+      - W/"5800144dadab71174cabffe2df97bd2c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 664c818e-3c28-4cce-b7cd-7afe3fdfacff
+      - b3ef06e4-f27d-4650-b464-6786cba4e8aa
       X-Runtime:
-      - '0.057614'
+      - '0.014565'
       Access-Control-Allow-Credentials:
       - 'false'
       Access-Control-Allow-Methods:
@@ -141,7 +144,7 @@ http_interactions:
       - Origin,Accept,DNT,Authorization,X-Client-Id,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
     body:
       encoding: UTF-8
-      string: '{"status":"500","error":"Internal Server Error"}'
+      string: '[{"id":599781,"group_id":175548,"user_id":1054513,"weight":2,"position":2,"created_at":"2017-01-14T20:51:11.409+00:00","updated_at":"2017-01-14T20:51:11.409+00:00"},{"id":599780,"group_id":175548,"user_id":1054513,"weight":1,"position":1,"created_at":"2017-01-14T20:51:11.387+00:00","updated_at":"2017-01-14T20:51:11.387+00:00"},{"id":599779,"group_id":175548,"user_id":1055865,"weight":0,"position":0,"created_at":"2017-01-14T20:50:35.960+00:00","updated_at":"2017-01-14T20:50:35.960+00:00"}]'
     http_version: 
-  recorded_at: Sat, 14 Jan 2017 16:53:03 GMT
+  recorded_at: Sat, 14 Jan 2017 20:59:41 GMT
 recorded_with: VCR 3.0.3
