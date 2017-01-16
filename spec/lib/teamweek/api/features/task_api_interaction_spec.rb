@@ -42,8 +42,10 @@ describe 'Task API interactions', Teamweek::Api::Client, :vcr do
   end
 
   it "creates a task" do
-    task = client.create(Teamweek::Api::Task, {name: "New Task", date: Date.today})
-    expect(task.first.name).to eq "New Task"
+    Timecop.freeze Date.new(2017, 1, 14) do
+      task = client.create(Teamweek::Api::Task, {name: "New Task", date: Date.today})
+      expect(task.first.name).to eq "New Task"
+    end
   end
 
   it "retrieves tasks created since a date" do
